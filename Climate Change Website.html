@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="stylesheet.css">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<title>Climate Change</title>
+</head>
+<body>
+
+<div class="page-header bg-dark">
+    <h1>Climate Change <small>What's it all about?</small></h1>
+</div>
+<!--Image Carousel that the user can go through and select to be taken to that section of the page-->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="waterlevels.jpg" alt="First slide" onclick="location.href='#sec1'">
+        <div class="carousel-caption d-none d-md-block">
+            <h5>Consequences of Climate Change</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="sunonearth.jpg" alt="Second slide" onclick="location.href='#sec2'">
+        <div class="carousel-caption d-none d-md-block">
+            <h5>Why is Climate Change happening?</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="aeroplane.jpg" alt="Third slide" onclick="location.href='#sec3'">
+        <div class="carousel-caption d-none d-md-block">
+            <h5>What can we do about Climate Change?</h5>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+<p class="text-responsive">Climate change is becoming more and more of a talked about issue in the news but with the recent increase of misinformation, 
+    it is important to have a good understanding of the basics. This website aims to explain what climate change is and show some examples of its effect on our world.
+    Cycle through and click on the images above to take you to the relevant section of the webpage. 
+</p>
+
+<div id="sec1"></div>
+<h2>
+  Consequences of Climate Change
+  <small class="text-muted">Global Warming, Habitats, Weather</small>
+</h2>
+
+<img src="arcticair.png" width="40%" class="rounded float-right" alt="Topological graph showing Arctic Air temperature increase from 1981">
+
+<p class="text-responsive">One of the main consequences of climate change is global warming which can be seen by looking at the Global Mean Surface Temperature (GMST) <br>
+  In 2020, GMST was 1.2 ± 0.1 °C warmer than the pre-industrial baseline (1850-1900). <br>
+  The warming is not equal around the planet, and it is especially prevelant in the Arctic where surface air temperatures have warmed twice as fast. 
+  This is having a major effect on Arctic habitats for animals such as Polar Bears. This can have a knock on effect as the polar bears need to move further south to find a new habitat and are affecting populations there.
+</p>
+<div class="text-center">
+  <img src="sealevelrise.png" width="80%" class="rounded" alt="Graph showing sea level rise.">
+</div>
+<p class="text-responsive">Arctic sea ice extent and glaciers have been decreasing, and as such the sea levels have been rising at an alarming rate.<br>
+  Globally, sea level has been rising an average of 3.29 (+/- 0.3) mm per year. The Marshall Islands in the North Pacific is one of the many places at risk from disappearing due to sea level rising.<br>
+  Unfortunately, the oceans also have been warming up and this has been devastating to some habitats, as well as having an effect on the weather.<br>
+  Warmer oceans means hurricanes have been more frequent and more dangerous when they happen.
+</p>
+
+<div id="sec2"></div>
+<h2>
+  Why is Climate Change happening?
+  <small class="text-muted">Greenhouse gases, Solar radiation, Deforestation</small>
+</h2>
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" style="margin-left:10%" src="greenhousegases.mp4" allowfullscreen></iframe>
+</div>
+<p class="text-responsive">Climate change has always been happening and is a natural thing, as the Earth goes between ice-age and a greenhouse Earth.<br>
+  Unfortunately, humans have caused a large increase in greenhouse gases in the atmosphere, which traps heat radiation from the Sun on Earth and means that global warming is happening much faster than what would be normal.<br>
+  Global warming is having a several domino effects all over Earth (talked about in the <a href="#sec1">first section</a>) which is changing climates and the world we live in.
+</p>
+
+<div id="sec3"></div>
+<h2>
+  What can we do about Climate Change?
+  <small class="text-muted">Carbon footprint, Travel, Companies</small>
+</h2>
+<img src="carbon-footprint-travel-mode.png" width="45%" class="rounded float-right" alt="Topological graph showing Arctic Air temperature increase from 1981">
+
+<p class="text-responsive">One of the most important things for us to consider in our day to day life is thinking about how we're travelling. <br>
+  Your carbon footprint is the amount of carbon dioxide you release into the atmosphere and different transport modes have vastly different carbon footprint "costs"<br>
+  For example, you can see using an electric car is <i>much better</i> than using a petrol vehicle and that flights release a relatively very large amount of carbon dioxide.
+</p>
+
+<p class="text-responsive">Another really important thing to consider when you want to reduce your carbon footprint is which companies you support. <br>
+  71% of global emissions are from just 100 companies, almost all energy companies. However there are a lot of other companies that have a huge negative impact on the environment.<br>
+  It is always important to do your own research when choosing what companies to buy from, but this is a list of some of the main companies that have been found to be damaging to the environment:
+</p>
+<ul class="text-responsive">
+  <li>Coca Cola</li>
+  <li>Pepsico</li>
+  <li>Nestle</li>
+</ul>
+
+<h3>
+  Sources
+</h3>
+<ul style="background-color: aliceblue; color:black">
+  <li><a href="https://public.wmo.int/en/our-mandate/climate/wmo-statement-state-of-global-climate" target="_blank">The World Meteorological Organization</a></li>
+  <li><a href="https://ourworldindata.org/travel-carbon-footprint" target="_blank">Our World in Data</a></li>
+  <li><a href="https://www.statista.com/chart/23720/worst-polluting-companies/" target="_blank">Statista</a></li> 
+</ul>
+</body>
+</html>

@@ -1,0 +1,36 @@
+body {
+    background-color: lightblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*Computer will go through font list when displaying the website and use the first one it has access to, or default sans-serif if it has none.*/
+  }
+  
+h1 {
+    color: white;
+    margin-left: 5%;
+  }
+
+h2,h3 {
+    margin-left: 5%;
+    background-color:palegoldenrod;
+    margin-right: 5%;
+  }
+
+p {
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    /*Having the margin size as a percentage means that it will adjust based on screen size and should be more suitable for mobile users.*/
+  }
+
+ul {
+    font-size: 20px;
+    text-align: left;
+    margin-left:15%;
+    margin-right:10%;
+    background-color: darkcyan;
+    color: white;
+  }
+
+.text-responsive {
+  font-size: calc(0.8rem + 1vw);
+}
